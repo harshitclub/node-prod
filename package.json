@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "node test.js",
+    "start": "node index.js",
+    "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +15,9 @@
     "cors": "^2.8.5",
     "helmet": "^8.0.0",
     "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10"
   }
 }
